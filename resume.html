@@ -8,11 +8,16 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
-	.flex-item > div	
+	.flex-item	
 	{
-		font-size: 24px;
+		font-size: 18px;
+		margin: 24px;
 		padding: 24px;
 		text-align: left;
+	}
+	.site-nav
+	{
+		outline: 5px solid #F2F2F2;
 	}
 	body 
 	{
@@ -24,7 +29,7 @@
     <body>
 	<div class="main-body">
 		<div class="flex-item">
-			<nav class="page-nav">
+			<nav class="site-nav">
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="biopic.html">Profile</a></li>
@@ -43,6 +48,14 @@
 		</div>
 		<div class="flex-item">
 			<h1> Resume </h1>
+			<nav class="page-nav">
+				<ul>
+					<li><a href="#summary">Summary</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#xp">Experience</a></li>
+						<li><a href="#edu">Education</a></li>
+						<li><a href="#other">Extras</a></li>
+				</ul>
 			<div id="summary">
 				<h3>Summary</h3>
 				<p>This is the summary section</p>
