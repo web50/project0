@@ -1,9 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
+    <title>Aaron's Website</title>
+    <style>
+	.main-body 
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.flex-item	
+	{
+		font-size: 18px;
+		margin: 12px;
+		padding: 5px;
+		text-align: left;
+	}
+	.site-nav
+	{
+		outline: 5px solid #F2F2F2;
+	}
+	body 
+	{
+		background-color: #A2FEEE;
+	}
+	</style>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
     </head>
     <body>
-        Hello, world!
+	<div class="main-body">
+		<div class="flex-item">
+			<nav class="site-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="biopic.html">Profile</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="flex-item">
+			<h1> Aaron's Website </h1>
+			<nav class="page-nav">
+				<ul>
+					<li><a href="#welcome">Welcome</a></li>
+					<li><a href="#gdpr">EU's GDPR</a></li>
+				</ul>
+			</nav>
+			<div id="welcome">
+				<h3>Welcome to the site!</h3>
+				<p>This section welcomes people to the page</p>
+			</div>
+			<div id="gdpr">
+				<h3>About the EU's GDPR</h3>
+				<p>This section talks about the GDPR</p>
+				<a href="https://www.eugdpr.org/">More about the GDPR</a>
+			</div>
+		</div>
+	</div>
     </body>
 </html>
