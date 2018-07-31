@@ -1,0 +1,17 @@
+@media (max-width: 576px)
+{
+	#site-nav > li
+	{
+		<button type="button" class="btn btn-primary"></button>
+	}	
+}
+.nav
+{
+	outline: 5px solid #F2F2F2;
+}
+body 
+{
+	background-color: #A2FEEE;
+	font-size: 18px;
+	margin: 12px;
+}
