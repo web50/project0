@@ -1,9 +1,9 @@
 @media (max-width: 576px)
 {
-	#site-nav > li
+	a::after
 	{
-		<button type="button" class="btn btn-primary"></button>
-	}	
+		<button type="button" class="btn btn-link"></button>
+	}
 }
 .nav
 {
