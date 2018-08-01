@@ -1,61 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <title>Aaron's Website</title>
-    <style>
-	.main-body 
-	{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.flex-item	
-	{
-		font-size: 18px;
-		margin: 12px;
-		padding: 5px;
-		text-align: left;
-	}
-	.site-nav
-	{
-		outline: 5px solid #F2F2F2;
-	}
-	body 
-	{
-		background-color: #A2FEEE;
-	}
-	</style>
+	<head>
+	<title>Aaron's Website</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-    </head>
-    <body>
-	<div class="main-body">
-		<div class="flex-item">
-			<nav class="site-nav">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="biopic.html">Profile</a></li>
-					<li><a href="resume.html">Resume</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-				</ul>
-			</nav>
-		</div>
-		<div class="flex-item">
-			<h1> Aaron's Website </h1>
-			<nav class="page-nav">
-				<ul>
-					<li><a href="#welcome">Welcome</a></li>
-					<li><a href="#gdpr">EU's GDPR</a></li>
-				</ul>
-			</nav>
-			<div id="welcome">
-				<h3>Welcome to the site!</h3>
-				<p>This section welcomes people to the page</p>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="stylepage.css">
+    	</head>
+   	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-12">
+				<nav class="nav flex-sm-column">
+					<a class="nav-link" href="index.html">Home</a>
+					<a class="nav-link" href="biopic.html">Profile</a>
+					<a class="nav-link" href="resume.html">Resume</a>
+					<a class="nav-link" href="portfolio.html">Portfolio</a>
+				</nav>
+				</div>
+				<div class="col-md-9 col-12">
+					<h1> Aaron's Website </h1>
+					<nav class="flex-sm-column">
+						<a class="nav-link" href="#welcome">Welcome</a></li>
+						<a class="nav-link" href="#gdpr">EU's GDPR</a></li>
+					</nav>
+					<h3 id="welcome">Welcome to the site!</h3>
+					<p>Welcome to the main page.  This site is information relating to my life and work, including my resume and some of my personal interests.
+					Maybe we can bridge some divides in our hyper-partisan world.</p>
+					<h3 id="gdpr">How we use your Data</h3>
+					<p>The EU's recently passed GDPR requires that we inform you of what data we collect and how we will use it.
+					We don't collect any data from users of this site. This is purely an informative site at this time.</p>
+					<a href="https://www.eugdpr.org/">More about the GDPR</a>
+				</div>
 			</div>
-			<div id="gdpr">
-				<h3>About the EU's GDPR</h3>
-				<p>This section talks about the GDPR</p>
-				<a href="https://www.eugdpr.org/">More about the GDPR</a>
-			</div>
 		</div>
-	</div>
-    </body>
+    	</body>
 </html>
