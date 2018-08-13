@@ -1,0 +1,40 @@
+$page_color: #A2FEEE;
+$nav_color: #CCCED1;
+$p_nav_color: #7ea8a6;
+$nav_outline: 5px solid #F2F2F2;
+
+@media (max-width: 576px)
+{
+	body
+	{
+		font-family: Arial, sans-serif;
+	}
+}
+@media (min-width: 577px)
+{
+	body
+	{
+		font-family: "Times New Roman", Times, serif;
+	}
+}
+body 
+{
+	background-color: $page_color;
+	font-size: 18px;
+	margin: 12px;
+}
+div
+{
+	nav
+	{
+		outline: $nav_outline;
+	}
+	#site-nav
+	{
+		background-color: $nav_color;
+	}
+	#page-nav
+	{
+		background-color: $p_nav_color;
+	}
+}

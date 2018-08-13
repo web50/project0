@@ -1,0 +1,19 @@
+@media (max-width: 576px) {
+  body {
+    font-family: Arial, sans-serif; } }
+@media (min-width: 577px) {
+  body {
+    font-family: "Times New Roman", Times, serif; } }
+body {
+  background-color: #A2FEEE;
+  font-size: 18px;
+  margin: 12px; }
+
+div nav {
+  outline: 5px solid #F2F2F2; }
+div #site-nav {
+  background-color: #CCCED1; }
+div #page-nav {
+  background-color: #7ea8a6; }
+
+/*# sourceMappingURL=stylepage1.css.map */
