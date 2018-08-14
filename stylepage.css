@@ -1,13 +1,17 @@
 @media (max-width: 576px)
 {
-	a::after
+	body
 	{
-		<button type="button" class="btn btn-link"></button>
+		font: arial, sans-serif;
 	}
 }
 .nav
 {
 	outline: 5px solid #F2F2F2;
+	.nav > #site-nav
+	{
+		background-color: #CCCED1;
+	}
 }
 body 
 {
