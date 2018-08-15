@@ -1,6 +1,9 @@
 @media (max-width: 576px) {
   body {
-    font-family: Arial, sans-serif; } }
+    font-family: Arial, sans-serif; }
+
+  a::before {
+    content: "->"; } }
 @media (min-width: 577px) {
   body {
     font-family: "Times New Roman", Times, serif; } }
@@ -9,6 +12,8 @@ body {
   font-size: 18px;
   margin: 12px; }
 
+div .section {
+  color: #b6d337; }
 div nav {
   outline: 5px solid #F2F2F2; }
 div #site-nav {
