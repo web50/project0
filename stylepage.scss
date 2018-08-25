@@ -1,8 +1,8 @@
 $page_color: #A2FEEE;
 $nav_color: #CCCED1;
 $p_nav_color: #7ea8a6;
-$nav_outline: 5px solid #F2F2F2;
 $header_color: #b6d337;
+$nav_border: 5px solid #F2F2F2;
 
 @media (max-width: 576px)
 {
@@ -22,11 +22,15 @@ $header_color: #b6d337;
 		font-family: "Times New Roman", Times, serif;
 	}
 }
+*
+{
+	margin: 2px;
+	padding: 2px;
+}
 body 
 {
 	background-color: $page_color;
 	font-size: 18px;
-	margin: 12px;
 }
 div
 {
@@ -34,9 +38,10 @@ div
 	{
 		color: $header_color;
 	}
-	nav
+	nav, table
 	{
-		outline: $nav_outline;
+		border-radius: 15px;
+		border: $nav_border;
 	}
 	#site-nav
 	{
