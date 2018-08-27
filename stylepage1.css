@@ -11,12 +11,15 @@
   margin: 2px;
   padding: 2px; }
 
+a {
+  color: #b804ef; }
+
 body {
   background-color: #A2FEEE;
   font-size: 18px; }
 
 div .section {
-  color: #b6d337; }
+  color: #d80a34; }
 div nav, div table {
   border-radius: 15px;
   border: 5px solid #F2F2F2; }
