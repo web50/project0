@@ -4,6 +4,7 @@ $p_nav_color: #7ea8a6;
 $header_color: #d80a34;
 $nav_border: 5px solid #F2F2F2;
 $hyperlink_color: #b804ef;
+$download_color: #0061ff;
 
 @media (max-width: 576px)
 {
@@ -25,7 +26,6 @@ $hyperlink_color: #b804ef;
 }
 *
 {
-	margin: 2px;
 	padding: 2px;
 }
 a
@@ -56,4 +56,8 @@ div
 	{
 		background-color: $p_nav_color;
 	}
+}
+p > a
+{
+	color: $download_color;
 }

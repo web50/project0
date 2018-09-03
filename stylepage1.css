@@ -8,7 +8,6 @@
   body {
     font-family: "Times New Roman", Times, serif; } }
 * {
-  margin: 2px;
   padding: 2px; }
 
 a {
@@ -27,5 +26,8 @@ div #site-nav {
   background-color: #CCCED1; }
 div #page-nav {
   background-color: #7ea8a6; }
+
+p > a {
+  color: #0061ff; }
 
 /*# sourceMappingURL=stylepage1.css.map */
