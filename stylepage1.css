@@ -19,7 +19,7 @@ body {
 
 div .section {
   color: #d80a34; }
-div nav, div table {
+div nav, div table, div th, div td {
   border-radius: 15px;
   border: 5px solid #F2F2F2; }
 div #site-nav {
