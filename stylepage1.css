@@ -1,0 +1,33 @@
+@media (max-width: 576px) {
+  body {
+    font-family: Arial, sans-serif; }
+
+  a::before {
+    content: "->"; } }
+@media (min-width: 577px) {
+  body {
+    font-family: "Times New Roman", Times, serif; } }
+* {
+  padding: 2px; }
+
+a {
+  color: #b804ef; }
+
+body {
+  background-color: #A2FEEE;
+  font-size: 18px; }
+
+div .section {
+  color: #d80a34; }
+div nav, div table, div th, div td {
+  border-radius: 15px;
+  border: 5px solid #F2F2F2; }
+div #site-nav {
+  background-color: #CCCED1; }
+div #page-nav {
+  background-color: #7ea8a6; }
+
+p > a {
+  color: #0061ff; }
+
+/*# sourceMappingURL=stylepage1.css.map */

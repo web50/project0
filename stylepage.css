@@ -1,0 +1,21 @@
+@media (max-width: 576px)
+{
+	body
+	{
+		font: arial, sans-serif;
+	}
+}
+.nav
+{
+	outline: 5px solid #F2F2F2;
+	.nav > #site-nav
+	{
+		background-color: #CCCED1;
+	}
+}
+body 
+{
+	background-color: #A2FEEE;
+	font-size: 18px;
+	margin: 12px;
+}

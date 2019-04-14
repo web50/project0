@@ -1,0 +1,63 @@
+$page_color: #A2FEEE;
+$nav_color: #CCCED1;
+$p_nav_color: #7ea8a6;
+$header_color: #d80a34;
+$nav_border: 5px solid #F2F2F2;
+$hyperlink_color: #b804ef;
+$download_color: #0061ff;
+
+@media (max-width: 576px)
+{
+	body
+	{
+		font-family: Arial, sans-serif;
+	}
+	a::before
+	{
+		content: "->";
+	}
+}
+@media (min-width: 577px)
+{
+	body
+	{
+		font-family: "Times New Roman", Times, serif;
+	}
+}
+*
+{
+	padding: 2px;
+}
+a
+{
+	color: $hyperlink_color;
+}
+body 
+{
+	background-color: $page_color;
+	font-size: 18px;
+}
+div
+{
+	.section
+	{
+		color: $header_color;
+	}
+	nav, table, th, td
+	{
+		border-radius: 15px;
+		border: $nav_border;
+	}
+	#site-nav
+	{
+		background-color: $nav_color;
+	}
+	#page-nav
+	{
+		background-color: $p_nav_color;
+	}
+}
+p > a
+{
+	color: $download_color;
+}
