@@ -1,0 +1,128 @@
+// Variabales
+$font-stack: Helvetica,
+san-serif;
+$primary-color: #333;
+$mobile: "screen and (max-width:560px)";
+
+// Common text formatting to extend
+%common-text-formatting {
+	font-family: $font-stack;
+	color: $primary-color;
+}
+
+// classes.html text formatting
+.classes-page {
+	@extend %common-text-formatting;
+}
+
+.courseid {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+// Projects table formatting
+// Referenced https://codepen.io/alico/full/bpLgOL
+#projects {
+	@extend %common-text-formatting;
+	border-spacing: 1;
+	border-collapse: collapse;
+	background: white;
+	border-radius: 6px;
+	overflow: hidden;
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	* {
+		position: relative;
+	}
+	td,
+	th {
+		padding-left: 20px;
+	}
+	thead tr {
+		height: 60px;
+		background: rgba(0, 0, 0, 0.3);
+		font-size: 16px;
+	}
+	tbody tr {
+		height: 45px;
+		background-color: rgba(0, 0, 0, 0.1);
+		border-bottom: 1px solid white;
+	}
+}
+
+// Project table reformatting for small screen
+// Referenced https://codepen.io/alico/full/bpLgOL
+@media #{$mobile} {
+	#projects {
+		@extend %common-text-formatting;
+		display: block;
+		>*,
+		tr,
+		td,
+		th {
+			display: block;
+		}
+		thead {
+			display: none;
+		}
+		tbody tr {
+			height: auto;
+			padding: 10px 0;
+			td {
+				padding-left: 35%;
+				margin-bottom: 5px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+				&:before {
+					position: absolute;
+					font-weight: bold;
+					width: 40%;
+					left: 20px;
+					top: 0;
+				}
+				&:nth-child(1):before {
+					content: "Name:";
+				}
+				&:nth-child(2):before {
+					content: "Class:";
+				}
+				&:nth-child(3):before {
+					content: "Due Date:";
+				}
+			}
+		}
+	}
+}
+
+// contact.html business card formatting
+//Referenced https://bootsnipp.com/snippets/P3zpb
+.business-card {
+	@extend %common-text-formatting;
+	border: 1px solid #CCCCCC;
+	background: #F8F8F8;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+.profile-img {
+	height: 120px;
+	background: white;
+	border-radius: 50%;
+}
+
+.headshot {
+	padding: 5px;
+}
+
+.job-title {
+	color: #666666;
+	font-size: 17px;
+}
+
+.mail,
+.phone {
+	font-size: 16px;
+}

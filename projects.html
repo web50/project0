@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My projects</title>
+  <!-- stylesheet and scripts obtained from https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- More specific stylesheet generated with sass -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Begin responsive navigation bar using Bootstrap 4 -->
+  <!-- Chose to leave inline style to make the code self contained and reusable -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">
+      <img src="images/crest.png" alt="Crest" style="width:25px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="classes.html">Classes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End responsive navigation bar using Bootstrap 4 -->
+</head>
+
+
+<body>
+  <!-- Begin construction alert -->
+  <!-- Chose to leave inline style to make the code self contained and reusable -->
+  <div class="alert alert-danger fade in alert-dismissible show">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true" style="font-size:20px">&times;</span>
+    </button>
+    <strong>Warning:</strong> This site is currently under construction.
+  </div>
+  <!-- End construction alert -->
+  <br>
+  <table id="projects">
+    <thead>
+      <tr>
+        <th>NAME</th>
+        <th>CLASS</th>
+        <th>DUE</th>
+      </tr>
+      <thead>
+      <tbody>
+        <tr>
+          <td>Project 0</td>
+          <td>CSCI-E33A</td>
+          <td>Thursday 9/19/19</td>
+        </tr>
+        <tr>
+          <td>Project 1</td>
+          <td>CSCI-E33A</td>
+          <td>Thursday 10/10/19</td>
+        </tr>
+        <tr>
+          <td>Project 2</td>
+          <td>CSCI-E33A</td>
+          <td>Thursday 10/31/19</td>
+        </tr>
+        <tr>
+          <td>Project 3</td>
+          <td>CSCI-E33A</td>
+          <td>Thursday 11/21/19</td>
+        </tr>
+      </tbody>
+      <table />
+</body>
+
+</html>
